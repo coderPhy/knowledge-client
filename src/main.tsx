@@ -5,7 +5,7 @@ import { ConfigProvider, App as AntdApp } from 'antd'
 import zhCN from 'antd/locale/zh_CN'
 import App from './App.tsx'
 import './index.css'
-
+console.log("test")
 createRoot(document.getElementById('root')!).render(
     <ConfigProvider
       locale={zhCN}
